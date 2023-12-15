@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  text-align: center;
+}
+
+.foodbox-main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.foodbox-main-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  border: 1px solid rgb(208, 70, 70);
+  padding: 10px;
+  background: linear-gradient(90deg, #5495c5 0%, #870f5d 100%); 
+}
+
+.foodbox-main-left img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.foodbox-main-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  padding: 25px;
+  border: 1px solid rgb(156, 142, 142);
+  background: linear-gradient(90deg, #488421 0%, #cd69bc 100%); 
+}
+.add{
+  width: 40px;
+  height: 40px;
+  font-size: large;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff510d 0%, #9b6483 100%); 
+}
+.reset{
+  font-size: large;
+  cursor: pointer;
+  background: linear-gradient(90deg, #5f5997 0%, #e5ed48 100%); 
+  box-shadow: 2px 2px 2px 2px black;
+  color: rgb(15, 15, 3);
+  font-weight: 600;
+}
